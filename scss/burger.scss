@@ -1,0 +1,53 @@
+@import "variables";
+@import "mixins";
+
+.header__burger {
+  display: none;
+  @media screen and (max-width: 910px) {
+    display: block;
+    position: fixed;
+    z-index: 150;
+    right: 10px;
+    top: 15px;
+    width: 30px;
+    height: 20px;
+    &.clicked {
+      &::before {
+        @include tr;
+        transform: rotate(45deg);
+        top: 9px;
+      }
+      &::after {
+        @include tr;
+        transform: rotate(-45deg);
+        bottom: 9px;
+      }
+      & span {
+        transform: scale(0);
+      }
+    }
+  }
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    background-color: $primary-color;
+  }
+  &::before {
+    top: 0;
+  }
+  &::after {
+    bottom: 0;
+  }
+  & span {
+    position: absolute;
+    background-color: $primary-color;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+}

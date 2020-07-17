@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/tabs.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/accordeon.css" />
+
+    <title>CBD</title>
+  </head>
+  <body>
+    <header class="header" style="background-image: url(img/header.png);">
+      <a
+        href="#"
+        onclick="return false"
+        class="header__burger"
+        id="header__burger"
+      >
+        <span></span>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">products</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">faqs</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">contact us</a>
+          </li>
+        </ul>
+        <div class="nav__main">
+          <a href="#" class="nav__logo">CBD</a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--bordered">
+            <a href="" class="nav__link nav__link--main">login</a>
+          </li>
+          <li class="nav__item nav__item--bordered">
+            <a href="" class="nav__link nav__link--main">
+              <i class="fas fa-search"></i> search</a
+            >
+          </li>
+          <li class="nav__item nav__item--bordered">
+            <a href="" class="nav__link nav__link--main">cart(0)</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="header__row">
+          <h1 class="header__title">Enhancing Life <br />Excelling in Care</h1>
+          <span class="header__subtitle"> Choose Wisely. Choose CBD.</span>
+          <a href="#" class="btn">Start shopping</a>
+          <a href="#" class="link-more"
+            >See all products <i class="fas fa-long-arrow-alt-right"></i
+          ></a>
+          <a href="#" class="scrollDown"><i class="fas fa-chevron-down"></i></a>
+        </div>
+      </div>
+      <div class="header__decoration">CBD potion health</div>
+    </header>
+    <section class="section" id="who_we_are">
+      <div class="container">
+        <div
+          class="about"
+          style="border: solid; border-image: url(img/border.png) stretch;"
+        >
+          <h1 class="section__title section__title--lt">
+            We are what we are
+          </h1>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="tabs">
+          <div class="tabs__nav tabs-nav">
+            <div class="tabs-nav__item is-active" data-tab-name="tab-1">
+              what is cbd?
+            </div>
+            <div class="tabs-nav__item" data-tab-name="tab-2">benefits</div>
+            <div class="tabs-nav__item" data-tab-name="tab-3">
+              our diference
+            </div>
+          </div>
+          <div class="tabs__content">
+            <div class="tab is-active tab-1">
+              <div class="col">
+                <h3 class="section__title section__title--lt">
+                  WHAT IT IS AND HOW IT WORKS
+                </h3>
+                <p class="tab__text">
+                  CBD is short for cannabidiol. It is a phytocannabinoid found
+                  in hemp and known for supporting the body and mind in many
+                  ways.* Charlotte’s Web products have cannabinoids with CBD
+                  extract.
+                </p>
+                <p class="tab__text">
+                  Not to be confused with oil from hemp seeds (which doesn’t
+                  contain cannabinoids), CBD comes from the flowers and leaves
+                  of the hemp plant.
+                </p>
+                <p class="tab__text">
+                  Why does CBD work? The human body has a vast network of
+                  receptors, the endocannabinoid system.
+                </p>
+              </div>
+              <div class="col">
+                <div class="wrap-img">
+                  <img src="img/img1.png" alt="" class="wrap-img__img" />
+                </div>
+                <div class="wrap-img">
+                  <img src="img/img2.png" alt="" class="wrap-img__img" />
+                </div>
+              </div>
+            </div>
+            <div class="tab tab-2">
+              <div class="col">
+                <h3 class="section__title section__title--lt">
+                  WHAT IT IS AND HOW IT WORKS
+                </h3>
+                <p class="tab__text">
+                  CBD is short for cannabidiol. It is a phytocannabinoid found
+                  in hemp and known for supporting the body and mind in many
+                  ways.* Charlotte’s Web products have cannabinoids with CBD
+                  extract.
+                </p>
+                <p class="tab__text">
+                  Not to be confused with oil from hemp seeds (which doesn’t
+                  contain cannabinoids), CBD comes from the flowers and leaves
+                  of the hemp plant.
+                </p>
+                <p class="tab__text">
+                  Why does CBD work? The human body has a vast network of
+                  receptors, the endocannabinoid system.
+                </p>
+              </div>
+              <div class="col">
+                <div class="wrap-img">
+                  <img src="img/img1.png" alt="" class="wrap-img__img" />
+                </div>
+                <div class="wrap-img">
+                  <img src="img/img2.png" alt="" class="wrap-img__img" />
+                </div>
+              </div>
+            </div>
+            <div class="tab tab-3">
+              <div class="col">
+                <h3 class="section__title section__title--lt">
+                  WHAT IT IS AND HOW IT WORKS
+                </h3>
+                <p class="tab__text">
+                  CBD is short for cannabidiol. It is a phytocannabinoid found
+                  in hemp and known for supporting the body and mind in many
+                  ways.* Charlotte’s Web products have cannabinoids with CBD
+                  extract.
+                </p>
+                <p class="tab__text">
+                  Not to be confused with oil from hemp seeds (which doesn’t
+                  contain cannabinoids), CBD comes from the flowers and leaves
+                  of the hemp plant.
+                </p>
+                <p class="tab__text">
+                  Why does CBD work? The human body has a vast network of
+                  receptors, the endocannabinoid system.
+                </p>
+              </div>
+              <div class="col">
+                <div class="wrap-img">
+                  <img src="img/img1.png" alt="" class="wrap-img__img" />
+                </div>
+                <div class="wrap-img">
+                  <img src="img/img2.png" alt="" class="wrap-img__img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__title">CBD featured products</h2>
+      <!-- Swiper -->
+      <div class="lunchbox">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a class="product">
+                <div class="product__body">
+                  <ul class="review__stars" data-stars="5">
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h3 class="product__title">
+                    CBD 500 mg Orange Flavor Tincture
+                  </h3>
+                  <div class="wrapper-img">
+                    <img src="img/product1.png" alt="" class="product__img" />
+                  </div>
+                </div>
+                <div class="product__info">
+                  <div class="price">49,99</div>
+                  <button href="" class="product__btn">shop</button>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="product">
+                <div class="product__body">
+                  <ul class="review__stars" data-stars="5">
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h3 class="product__title">
+                    CBD 500 mg Orange Flavor Tincture
+                  </h3>
+                  <div class="wrapper-img">
+                    <img src="img/product1.png" alt="" class="product__img" />
+                  </div>
+                </div>
+                <div class="product__info">
+                  <div class="price">49,99</div>
+                  <button href="" class="product__btn">shop</button>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="product">
+                <div class="product__body">
+                  <ul class="review__stars" data-stars="5">
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                    <li class="review__star"><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h3 class="product__title">
+                    CBD 500 mg Orange Flavor Tincture
+                  </h3>
+                  <div class="wrapper-img">
+                    <img src="img/product1.png" alt="" class="product__img" />
+                  </div>
+                </div>
+                <div class="product__info">
+                  <div class="price">49,99</div>
+                  <button href="" class="product__btn">shop</button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+        </div>
+
+        <div class="arrows">
+          <div class="swiper-button-prev-unique">
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </div>
+          <div class="swiper-button-next-unique">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+      </div>
+      <h2 class="section__title">Frequantly asked questions</h2>
+      <div class="accordeon">
+        <button class="accordeon__item">
+          Is Hemp-Derived Cannabidiol (CBD) Legal?
+        </button>
+        <div class="accordeon__panel">
+          <p>
+            Because CBD from hemp has no psychoactive effects, the purchase,
+            sales, or possession of hemp CBD products are completely legal in
+            all 50 States.
+          </p>
+        </div>
+
+        <button class="accordeon__item">
+          Is Hemp-Derived Cannabidiol (CBD) Legal?
+        </button>
+        <div class="accordeon__panel">
+          <p>
+            Because CBD from hemp has no psychoactive effects, the purchase,
+            sales, or possession of hemp CBD products are completely legal in
+            all 50 States.
+          </p>
+        </div>
+
+        <button class="accordeon__item">
+          Is Hemp-Derived Cannabidiol (CBD) Legal?
+        </button>
+        <div class="accordeon__panel">
+          <p>
+            Because CBD from hemp has no psychoactive effects, the purchase,
+            sales, or possession of hemp CBD products are completely legal in
+            all 50 States.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="swiper-container" id="swiper-container">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide swiper-slide--high"
+          style="background-image: url(img/sliderBg.png);"
+        >
+          <div class="swiper-slide-custom">
+            <div class="slide-decoration">
+              cbd every day
+            </div>
+            <ul class="review__stars" data-stars="5">
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+            </ul>
+            <blockquote class="quote">
+              I have tried another product after using this one successfully,
+              and I am Back for good! The flavour, the lightness of the oil and
+              the health benefits I have gotten with this oil are amazing!
+            </blockquote>
+            <div class="author">mark j.</div>
+            <div class="arrowsWrap">
+              <div class="swiper-button-prev-custom">
+                <img src="img/Left.svg" alt="" />
+              </div>
+              <div class="swiper-button-next-custom">
+                <img src="img/Right.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide swiper-slide--high"
+          style="background-image: url(img/sliderBg.png);"
+        >
+          <div class="swiper-slide-custom">
+            <ul class="review__stars" data-stars="5">
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+              <li class="review__star"><i class="fas fa-star"></i></li>
+            </ul>
+            <blockquote class="quote">
+              I have tried another product after using this one successfully,
+              and I am Back for good! The flavour, the lightness of the oil and
+              the health benefits I have gotten with this oil are amazing!
+            </blockquote>
+            <div class="author">mark j.</div>
+            <div class="arrowsWrap">
+              <div class="swiper-button-prev-custom">
+                <img src="img/Left.svg" alt="" />
+              </div>
+              <div class="swiper-button-next-custom">
+                <img src="img/Right.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__col">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">privacy policy</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Terms of use</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">return policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col--centered">
+            <a href="#" class="footer__logo">cbd</a>
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="brd"></div>
+            <h3 class="feedback">subscribe to newsletter</h3>
+            <form action="" class="form" method="get">
+              <input type="text" placeholder="Email" class="form__input" />
+              <button type="submit" class="form__button">
+                <img src="img/Arrow.svg" alt="" />
+              </button>
+            </form>
+            <span class="footer__descr">© 2018. CbD health.</span>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">privacy policy</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">Terms of use</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">return policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/accordeon.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

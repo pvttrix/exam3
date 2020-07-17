@@ -1,0 +1,61 @@
+@import "variables";
+
+.accordeon {
+  max-width: 570px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  &__item {
+    min-height: 75px;
+    position: relative;
+    font-weight: 300;
+    color: $secondary-color;
+    cursor: pointer;
+    padding: 16px;
+    text-align: center;
+    border-top: 1px solid rgba($secondary-color, 0.4);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+    display: block;
+    outline: none;
+    width: 100%;
+    background-color: inherit;
+    text-align: left;
+    padding: 40px;
+    &:last-of-type {
+      border-bottom: 1px solid rgba($secondary-color, 0.4);
+    }
+    &:after {
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      content: "\002B";
+      color: $secondary-color;
+      font-size: 50px;
+      font-weight: 100;
+      font-family: serif;
+      @media screen and(max-width:400px) {
+        font-size: 30px;
+      }
+    }
+    &.active {
+      border-bottom: none;
+    }
+  }
+  &__panel {
+    padding: 0 18px;
+    color: #212121;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    font-weight: 300;
+    font-family: $body-ff;
+    font-size: 18px;
+  }
+}
