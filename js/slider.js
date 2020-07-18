@@ -3,6 +3,7 @@ var swiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next-unique",
     prevEl: ".swiper-button-prev-unique",
   },
+  loop: true,
   spaceBetween: 40,
   breakpoints: {
     1199: {
@@ -22,6 +23,7 @@ var swiper = new Swiper("#swiper-container", {
     nextEl: ".swiper-button-next-custom",
     prevEl: ".swiper-button-prev-custom",
   },
+  loop: true,
   spaceBetween: 0,
   slidesPerView: 1,
 });
